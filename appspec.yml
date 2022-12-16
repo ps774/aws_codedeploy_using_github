@@ -1,4 +1,3 @@
-
 version: 0.0
 os: linux
 files:
@@ -22,4 +21,3 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
-
