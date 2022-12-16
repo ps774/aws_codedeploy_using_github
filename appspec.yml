@@ -2,8 +2,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: /shopsixle.html
+    destination: /var/www/shopsixle
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
