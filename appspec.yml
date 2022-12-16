@@ -4,7 +4,7 @@ os: linux
 files:
   - source: /shopsixle.html    #source file location in the repo.
     destination: /var/www/shopsixle       #destination location into the instance
-file_exists_behavior: OVERWRITE|RETAIN    #If same source file exist,It will overwrite
+file_exists_behavior: OVERWRITE    #If same source file exist,It will overwrite
 
 files:
   - source: /report.html   #source file location in the repo.
