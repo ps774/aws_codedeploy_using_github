@@ -4,6 +4,7 @@ os: linux
 files:
   - source: /shopsixle.html
     destination: /var/www/shopsixle
+file_exists_behavior: OVERWRITE    
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
