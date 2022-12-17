@@ -1,3 +1,4 @@
 #!/bin/bash
 yum install -y httpd
+yum groupinstall -y "MySQL Database" "PHP Support"
 yum install -y php-mysql
