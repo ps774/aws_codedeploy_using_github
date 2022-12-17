@@ -1,4 +1,4 @@
 #!/bin/bash
 yum install -y amazon-linux-extras
 yum install -y httpd
-yum install -y mysql-server
+
