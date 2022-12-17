@@ -6,5 +6,5 @@ fi
 
 isExistApp=`pgrep mysqld`
 if [[ -n  $isExistApp ]]; then
-    service mysql stop
+    service mysqld stop
 fi
